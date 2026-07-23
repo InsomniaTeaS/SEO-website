@@ -1,0 +1,229 @@
+﻿/* SEO Website CSS */
+/* Alex Zheng */
+/* April 2025 */
+
+body {
+    background-color: #a28089;
+    color: #000;
+    font-family: 'proxima-nova', sans-serif;
+    margin: 0;
+}
+
+
+header {
+    background-color: #51e2f5;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #231814;
+    height: 128px;
+}
+
+header a:link { color: #231814; }
+
+header a:visited { color: #231814; }
+
+header a:hover { color: white; }
+
+h1 {
+    font-size: 3em;
+}
+
+h2, h3, h4, p, div, dl {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h2 {
+    color: #000000;
+    background-color: #E9E4D4;
+    text-align: center;
+    margin: auto;
+    padding-block: 1em;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin: .5em;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin: .4em;
+    background-color: #ffa8B6;
+}
+
+p, h4 {
+    padding-block: .5em;
+    line-height: 2;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+    nav a {
+        text-decoration: none;
+    }
+
+    nav ul {
+        background-color: #9df9ef;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        font-size: 1.25em;
+    }
+
+    nav li {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
+        border-bottom: 1px solid #FEF6C2;
+    }
+
+    nav a:link {
+        color:black;
+    }
+
+    nav a:visited {
+        color: #D2B48C;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+main {
+    display: block;
+    padding: 0 0 2em 0;
+    background-color: #FFFFFF;
+}
+
+    main ol {
+        display: grid;
+    }
+    main li {
+        line-height: 1.7;
+    }
+
+    main ul {
+        padding-block: .5em;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+img {
+    width: 70%;
+    padding: 15px;
+}
+
+.left {
+   display: block;
+   margin-left: 2em;
+   width: 25%;
+}
+
+.floatright {
+   float: right;
+   width: 30%;
+   padding: 15px;
+}
+
+form {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5em;
+  background-color: #f9f5f0;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+input[type="text"], input[type="date"], textarea, select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  float: right;
+}
+
+
+form p {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+input[type="submit"], input[type="reset"] 
+{
+  background-color: #8C3826;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  margin-top: 1.5em;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #A64B3F;
+}
+
+.container {
+    width: 160px;
+    background: white;
+    padding: 1.5em;
+}
+
+footer {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+@media (max-width: 576px) {
+    /* phone devices */
+    @supports (display: grid) {
+        body {
+            font-size: 1em;
+        }
+
+        nav {
+            display: block;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 768px) {
+        /*tablet devices */
+        nav {
+            display: block;
+            flex-direction: column;
+        }
+    }
+}
