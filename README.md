@@ -24,18 +24,6 @@ The shared stylesheet is located at `styles/SEO.css`. It handles the site colors
 - image alignment and sizing
 - source attribution
 
-## Missing assets
-
-The HTML references a print stylesheet and several images that are not currently included in this repository:
-
-- `styles/print.css`
-- `images/GoogleSEO.png`
-- `images/SEOtypes.jpeg`
-- `images/SEOKeywordTemplate.png`
-- `images/SEOtools.jpg`
-
-The pages and shared CSS are present, but those images will not display until the original files are added.
-
 ## Author
 
 Alex Zheng  
