@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!-- Search Engine Optimization, SEO -->
+<!-- Form Page -->
+<!-- Alex Zheng -->
+<!-- April 2025 -->
+
+<html lang="en">
+
+<head>
+    <title>Search Engine Optimization, SEO</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/SEO.css">
+    <link rel="stylesheet" href="styles/print.css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html">Search Engine Optimization, SEO</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="whatandtypes.html">What is + Types of SEO</a></li>
+            <li><a href="bestpractices.html">Best Practices</a></li>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2> (SEO) Form Page </h2>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+            <label for="name">Name:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="USA">United States</option>
+                <option value="CA">Canada</option>
+                <option value="CN">China</option>
+                <option value="JP">Japan</option>
+                <option value="KR">South Korea</option>
+            </select>
+            <br><br>
+
+            <label for="startdate">Start Date:</label>
+            <input type="date" id="startdate" name="startdate" required>
+            <br><br>
+
+            <div class="container">
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br><br>
+
+            <div class="container">
+                <p>Hobbies:</p>
+                <input type="checkbox" id="reading" name="hobby" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+                <input type="checkbox" id="gaming" name="hobby" value="gaming">
+                <label for="gaming">Gaming</label>
+                <br>
+                <input type="checkbox" id="traveling" name="hobby" value="traveling">
+                <label for="traveling">Traveling</label>
+                <br>
+                <input type="checkbox" id="sleeping" name="hobby" value="sleeping">
+                <label for="sleeping">Sleeping</label>
+            </div>
+            <br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Final Project</p>
+        <a href="mailto:azheng8@student.ccp.edu">Alex@Zheng.com</a>
+    </footer>
+
+</body>
+
+</html>
